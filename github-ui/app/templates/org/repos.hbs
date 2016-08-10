@@ -1,0 +1,7 @@
+<h2>{{org.id}}'s Repos</h2>
+
+<ul>
+  {{#each content as |repo|}}
+  <li>{{link-to repo.id 'org.repo' repo.id}}</li>
+  {{/each}}
+</ul>

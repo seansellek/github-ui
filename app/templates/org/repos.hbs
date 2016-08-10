@@ -1,0 +1,5 @@
+<ul>
+  {{#each model as |repo| }}
+  <li>{{link-to repo.id "org.repo" "facebook" repo.id}}</li>
+  {{/each}}
+</ul>
